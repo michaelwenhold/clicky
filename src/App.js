@@ -27,6 +27,7 @@ removeTeam = id => {
           removeTeam={this.removeTeam}
           id={team.id}
           key={team.id}
+          image={team.image}
           name={team.name}
           established={team.established}
           superBowls={team.superBowls}
