@@ -1,13 +1,227 @@
 [
-    {
-      "id": 1,
-      "name": "Arizona Cardinals",
-      "image": "http://content.sportslogos.net/logos/7/177/full/kwth8f1cfa2sch5xhjjfaof90.png"
-    },
-    {
-      "id": 2,
-      "name": "Atlanta Falcons",
-      "image": "http://content.sportslogos.net/logos/7/173/full/299.png"
-    } 
-  ]
+  {
+    "id": 1,
+    "name": "Arizona Cardinals",
+    "image": "http://content.sportslogos.net/logos/7/177/full/kwth8f1cfa2sch5xhjjfaof90.png",
+    "established": "1994",
+    "superBowls": "0"
+  },
+  {
+    "id": 2,
+    "name": "Atlanta Falcons",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1966",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 3,
+    "name": "Baltimore Ravens",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1996",
+    "superBowls": "2"
+  }, 
+  {
+    "id": 4,
+    "name": "Buffalo Bills",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1970",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 5,
+    "name": "Carolina Panthers",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1995",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 6,
+    "name": "Chicago Bears",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1920",
+    "superBowls": "1"
+  }, 
+  {
+    "id": 7,
+    "name": "Cincinnati Bengals",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1970",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 8,
+    "name": "Cleveland Browns",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1946",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 9,
+    "name": "Dallas Cowboys",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1960",
+    "superBowls": "5"
+  }, 
+  {
+    "id": 10,
+    "name": "Denver Broncos",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1970",
+    "superBowls": "3"
+  }, 
+  {
+    "id": 11,
+    "name": "Detroit Lions",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1934",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 12,
+    "name": "Green Bay Packers",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1919",
+    "superBowls": "4"
+  }, 
+  {
+    "id": 13,
+    "name": "Houston Texans",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "2002",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 14,
+    "name": "Indianapolis Colts",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1984",
+    "superBowls": "2"
+  }, 
+  {
+    "id": 15,
+    "name": "Jacksonville Jaguars",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1995",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 16,
+    "name": "Kansas City Chiefs",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1970",
+    "superBowls": "1"
+  }, 
+  {
+    "id": 17,
+    "name": "Los Angeles Chargers",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "2017",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 18,
+    "name": "Los Angeles Rams",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "2016",
+    "superBowls": "1"
+  }, 
+  {
+    "id": 19,
+    "name": "Miami Dolphins",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1970",
+    "superBowls": "2"
+  }, 
+  {
+    "id": 20,
+    "name": "Minnesota Vikings",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1961",
+    "superBowls": "0"
+  }, 
+  {
+    "id": 21,
+    "name": "New England Patriots",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1971",
+    "superBowls": "5"
+  }, 
+  {
+    "id": 22,
+    "name": "New Orleans Saints",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1967",
+    "superBowls": "1"
+  }, 
+  {
+    "id": 23,
+    "name": "New York Giants",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1925",
+    "superBowls": "4"
+  }, 
+  {
+    "id": 24,
+    "name": "New York Jets",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1970",
+    "superBowls": "1"
+  }, 
+  {
+    "id": 25,
+    "name": "Oakland Raiders",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1995",
+    "superBowls": "3"
+  }, 
+  {
+    "id": 26,
+    "name": "Philadelphia Eagles",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1933",
+    "superBowls": "1"
+  }, 
+  {
+    "id": 27,
+    "name": "Pittsburgh Steelers",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1945",
+    "superBowls": "6"
+  }, 
+  {
+    "id": 28,
+    "name": "San Francisco 49ers",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1946",
+    "superBowls": "5"
+  }, 
+  {
+    "id": 29,
+    "name": "Seattle Seahawks",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1976",
+    "superBowls": "1"
+  }, 
+  {
+    "id": 30,
+    "name": "Tampa Bay Buccaneers",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1976",
+    "superBowls": "1"
+  },
+  {
+    "id": 31,
+    "name": "Tennessee Titans",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1999",
+    "superBowls": "0"
+  },
+  {
+    "id": 32,
+    "name": "Washington Redskins",
+    "image": "http://content.sportslogos.net/logos/7/173/full/299.png",
+    "established": "1937",
+    "superBowls": "3"
+  }
+]
   

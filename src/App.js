@@ -28,6 +28,9 @@ removeTeam = id => {
           id={team.id}
           key={team.id}
           name={team.name}
+          established={team.established}
+          superBowls={team.superBowls}
+
           />
         ))}
       </Wrapper>
