@@ -21,7 +21,8 @@ removeTeam = id => {
   render() {
     return (
       <Wrapper>
-        <Title>Football Teams</Title>
+        
+        <Title>NFL Memory Game</Title>
         {this.state.teams.map(team => (
           <TeamCard
           removeTeam={this.removeTeam}

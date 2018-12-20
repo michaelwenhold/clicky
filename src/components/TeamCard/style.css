@@ -1,5 +1,5 @@
 .card {
-    background: #fff;
+    background: rgb(184, 180, 180);
     border-radius: 2px;
     height: 325px;
     margin: 1rem;
@@ -13,7 +13,7 @@
     height: 60%;
     overflow: hidden;
     text-align: center;
-    background:#6CADDC;
+    background: rgb(63, 58, 58);
   }
   .card > .img-container > img {
     width: 60%;
@@ -35,7 +35,7 @@
   }
   
   .card > .remove {
-    color: #ff1744;
+    color: #eeeaea;
     font-size: 48px;
     position: absolute;
     top: -20px;
