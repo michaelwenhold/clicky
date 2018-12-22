@@ -46,7 +46,12 @@ shuffle = id => {
         <div>
           <h3>Try not to click the same team logo twice!</h3>
           </div>
+          <score total={this.state.score}
+        status={this.state.status}
+        />
         </Title>  
+
+        
 
         {this.state.teams.map(team => (
           <TeamCard
