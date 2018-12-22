@@ -40,9 +40,14 @@ shuffle = id => {
   render() {
     return (
       <Wrapper>
-        
 
-        <Title>Clicky Game</Title>
+      <Title>
+        NFL Clicky Game
+        <div>
+          <h3>Try not to click the same team logo twice!</h3>
+          </div>
+        </Title>  
+
         {this.state.teams.map(team => (
           <TeamCard
           shuffle={this.shuffle}
@@ -52,13 +57,11 @@ shuffle = id => {
           name={team.name}
           established={team.established}
           superBowls={team.superBowls}
-
           />
         ))}
       </Wrapper>
     );
   }
 }
-
 
 export default App;
