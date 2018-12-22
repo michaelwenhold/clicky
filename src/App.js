@@ -7,14 +7,33 @@ import teams from "./teams.json";
 class App extends Component {
 // Setting this.state.teams to the teams json array
 state = {
-  teams
+  teams,
+  clickedTeamIds: [],
+  score: 0,
+  status: ""
 };
 
-removeTeam = id => {
-  // Filter this.state.teams for teams with an id not equal to the id being removed
-  const teams = this.state.teams.filter(team => team.id !== id);
-  // Set this.state.friends equal to the new friends array
-  this.setState({ teams });
+shuffle = id => {
+  let clickedTeamIds = this.state.clickedTeamIds;
+
+  if(clickedTeamIds.includes(id)){
+    this.setState({ clickedTeamIds: [], score: 0, status: "Game Over! Click to play again!"});
+    return;
+  }else{
+    clickedTeamIds.push(id)
+
+  if(clickedTeamIds.length === 32){
+    this.setState({score: 32, status: "You won! You sure do know your football teams! Click to play again", clickedTeamIds: []});
+  return;
+  }
+
+  this.setState({ teams, clickedTeamIds, score: clickedTeamIds.length, status: " "});
+
+  for (let i = teams.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [teams[i], teams[j]] = [teams[j], teams[i]];
+  }
+  }
 };
 
 // Map over this.state.teams and render a TeamCard component for each team object
@@ -22,10 +41,11 @@ removeTeam = id => {
     return (
       <Wrapper>
         
-        <Title>NFL Memory Game</Title>
+
+        <Title>Clicky Game</Title>
         {this.state.teams.map(team => (
           <TeamCard
-          removeTeam={this.removeTeam}
+          shuffle={this.shuffle}
           id={team.id}
           key={team.id}
           image={team.image}
@@ -39,5 +59,6 @@ removeTeam = id => {
     );
   }
 }
+
 
 export default App;

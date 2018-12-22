@@ -5,7 +5,8 @@ function TeamCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={props.image} id={props.id} 
+        onClick={() => props.shuffle(props.id)} className="shuffle" />
       </div>
       <div className="content">
         <ul>
@@ -20,9 +21,7 @@ function TeamCard(props) {
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeTeam(props.id)} className="remove">
-        𝘅
-      </span>
+      
     </div>
   );
 }
