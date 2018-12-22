@@ -27,3 +27,4 @@ The wrapper component wraps the TeamCard component.
 ## Deployment
 
 Play NFL Clicky Game on Heroku: https://nfl-clicky.herokuapp.com/
+
